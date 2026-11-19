@@ -1,5 +1,5 @@
 #include <M5Unified.h>
-
+#include <math.h>
 // M5StickC Plus shake detector (built-in MPU6886 IMU). Sends one line per shake to the browser.
 static float previousX = 0, previousY = 0, previousZ = 0;
 static bool havePrevious = false;
